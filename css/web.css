@@ -1,0 +1,65 @@
+:root {
+  --textgreen: green;
+  --textwhite: white;
+  --bgred: red;
+  --bggray: #202325;
+}
+.logo img {
+  width: 80px;
+}
+.secure {
+  margin-top: 30px;
+}
+.secure a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 20px;
+  color: var(--textgreen);
+}
+/* menu */
+#menu {
+  background-color: var(--bgred);
+}
+.navbar {
+  background-color: var(--bgred) !important;
+}
+.nav-link {
+  color: var(--textwhite) !important;
+}
+/* product */
+#product {
+  padding: 30px 0px;
+}
+#product .card img {
+  height: 200px;
+}
+
+/* footer */
+footer {
+  background-color: var(--bggray);
+}
+footer h2 {
+  color: var(--textwhite);
+  font-size: 20px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+footer ul li {
+  color: var(--textwhite);
+  list-style-type: none;
+}
+footer hr {
+  color: var(--textwhite);
+  border: none;
+  height: 10px;
+  background-color: var(--textwhite);
+}
+footer p {
+  color: var(--textwhite);
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: var(--textwhite);
+}
